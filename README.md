@@ -1,1 +1,16 @@
-# Proyek-Kelompok2
+# Proyek Artikel - Kelompok 2
+
+Repositori ini merupakan bagian dari tugas kolaboratif pengembangan artikel menggunakan GitHub. Artikel ini mencakup empat topik utama:
+
+1. Dasar-dasar Git dan GitHub
+2. CSS Flexbox dan penggunaannya
+3. CSS Grid dan penggunaannya
+4. Bootstrap serta implementasinya
+
+## Anggota:
+- Muhammad Jordan (admin, integrator & Bootstrap)
+- Ika (Git dan GitHub)
+- Raga (CSS Flexbox)
+- Mail (CSS Grid)
+
+Setiap kontributor bekerja melalui fitur branch dan pull request, lalu digabungkan oleh admin melalui proses review.
