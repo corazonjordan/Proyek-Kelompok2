@@ -9,8 +9,8 @@ Repositori ini merupakan bagian dari tugas kolaboratif pengembangan artikel meng
 
 ## Anggota:
 - Muhammad Jordan (admin, integrator & Bootstrap)
-- Ika (Git dan GitHub)
-- Raga (CSS Flexbox)
-- Mail (CSS Grid)
+- Ika Mi'rad Saputri (Git dan GitHub)
+- M.Raga Al Abtad Purma (CSS Flexbox)
+- Muhammad Ismail (CSS Grid)
 
 Setiap kontributor bekerja melalui fitur branch dan pull request, lalu digabungkan oleh admin melalui proses review.
