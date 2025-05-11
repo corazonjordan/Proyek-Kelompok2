@@ -1,4 +1,5 @@
 🔰 Apa Itu Bootstrap?
+
 Bootstrap adalah framework front-end open-source yang membantu developer dalam membuat tampilan website yang modern dan responsif dengan lebih cepat dan efisien.
 
 Bootstrap menyediakan:
@@ -12,6 +13,7 @@ Utilitas CSS yang efisien
 Responsivitas yang otomatis tanpa banyak media query manual
 
 ⚙️ Cara Menggunakan Bootstrap
+
 1. Menggunakan CDN (Tanpa Instalasi)
     ```<head>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
