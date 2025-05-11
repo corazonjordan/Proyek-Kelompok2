@@ -15,10 +15,11 @@ Responsivitas yang otomatis tanpa banyak media query manual
 ⚙️ Cara Menggunakan Bootstrap
 
 1. Menggunakan CDN (Tanpa Instalasi)
-    ```<head>
+<head>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-    ```
+
+
 2. Menggunakan NPM / Install Lokal
   npm install bootstrap
   Lalu import ke dalam file JS/SCSS Anda:
@@ -35,7 +36,7 @@ Row
 Column
 
 🔍 Contoh Grid Responsive
-``
+```
 <div class="container">
   <div class="row">
     <div class="col-md-6 bg-primary text-white p-3">Kolom Kiri</div>
@@ -45,7 +46,8 @@ Column
 ```
 🧩 Komponen Bootstrap
 1. Navbar
-   ```<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+```
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">MySite</a>
     <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
@@ -61,17 +63,20 @@ Column
 </nav>
 ```
 2. Card
-```<div class="card" style="width: 18rem;">
-  <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
-  <div class="card-body">
+```
+<div class="card" style="width: 18rem;">
+   <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+   <div class="card-body">
     <h5 class="card-title">Judul</h5>
     <p class="card-text">Deskripsi singkat konten di dalam card.</p>
     <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
   </div>
 </div>
-``` 
+```
+
 3. Button dan Alerts
-```<button class="btn btn-success">Sukses</button>
+```
+<button class="btn btn-success">Sukses</button>
 <div class="alert alert-warning mt-3">Ini adalah peringatan!</div>
 ```
 🧪 Contoh Mini Project: Halaman Profil Sederhana
@@ -93,12 +98,12 @@ Column
 ```
 ![Contoh Profile](Profile.png)
 
-💡 Kelebihan Bootstrap
-Kelebihan                    Penjelasan
-🚀 Cepat & Mudah             Tak perlu styling dari nol
-🔁 Responsif                 Secara otomatis menyesuaikan ukuran layar
-🧩 Komponen                  Siap Pakai	Navbar, modal, form, dll
-🎨 Konsistensi               Desain	Meminimalkan ketidaksesuaian UI
+| Kelebihan              | Penjelasan                                |
+| ---------------------- | ----------------------------------------- |
+| 🚀 Cepat & Mudah       | Tak perlu styling dari nol                |
+| 🔁 Responsif           | Secara otomatis menyesuaikan ukuran layar |
+| 🧩 Komponen Siap Pakai | Navbar, modal, form, dll                  |
+| 🎨 Konsistensi Desain  | Meminimalkan ketidaksesuaian UI           |
 
 🚧 Kekurangan Bootstrap
 1. Tampilan website bisa terlihat “mirip” dengan website lain jika tidak dikustomisasi
