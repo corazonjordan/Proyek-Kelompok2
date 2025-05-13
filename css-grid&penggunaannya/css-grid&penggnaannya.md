@@ -14,6 +14,7 @@ CSS Grid adalah sistem layout berbasis grid dua dimensi (baris dan kolom) yang m
 | Grid Area      | Beberapa grid cell yang membentuk area tertentu |
 
 3. Properti Utama Grid Container
+   
 | Properti                               | Fungsi                            |
 | -------------------------------------- | --------------------------------- |
 | `grid-column-start`, `grid-column-end` | Posisi mulai dan akhir kolom      |
@@ -23,7 +24,8 @@ CSS Grid adalah sistem layout berbasis grid dua dimensi (baris dan kolom) yang m
 
 4. Properti pada Grid Item
 
-   | Properti                           | Fungsi                              |
+
+| Properti                           | Fungsi                              |
 | ---------------------------------- | ----------------------------------- |
 | `display: grid`                    | Mengaktifkan CSS Grid               |
 | `grid-template-columns`            | Menentukan jumlah dan ukuran kolom  |
@@ -32,4 +34,123 @@ CSS Grid adalah sistem layout berbasis grid dua dimensi (baris dan kolom) yang m
 | `justify-items`, `align-items`     | Posisi isi tiap grid item           |
 | `justify-content`, `align-content` | Posisi seluruh grid dalam container |
 
+🔧 Kode HTML + CSS (Contoh CSS Grid)
 
+✅ HTML:
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contoh CSS Grid</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>Header</header>
+    <aside>Sidebar</aside>
+    <main>Main Content</main>
+    <footer>Footer</footer>
+  </div>
+</body>
+</html>
+```
+
+🎨 CSS (style.css):
+
+```/* Grid container */
+.container {
+  display: grid;
+  grid-template-areas:
+    "header  header"
+    "sidebar main"
+    "footer  footer";
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: auto 1fr auto;
+  gap: 10px;
+  height: 100vh;
+  padding: 10px;
+}
+
+/* Area styling */
+header {
+  grid-area: header;
+  background: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+aside {
+  grid-area: sidebar;
+  background: #f0f0f0;
+  padding: 20px;
+}
+
+main {
+  grid-area: main;
+  background: #ddd;
+  padding: 20px;
+}
+
+footer {
+  grid-area: footer;
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+/* Grid container */
+.container {
+  display: grid;
+  grid-template-areas:
+    "header  header"
+    "sidebar main"
+    "footer  footer";
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: auto 1fr auto;
+  gap: 10px;
+  height: 100vh;
+  padding: 10px;
+}
+
+/* Area styling */
+header {
+  grid-area: header;
+  background: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+aside {
+  grid-area: sidebar;
+  background: #f0f0f0;
+  padding: 20px;
+}
+
+main {
+  grid-area: main;
+  background: #ddd;
+  padding: 20px;
+}
+
+footer {
+  grid-area: footer;
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+```
+
+🧪 Penjelasan:
+
+display: grid                → Mengubah .container menjadi grid container
+.
+
+grid-template-areas          → Menentukan posisi elemen berdasarkan nama.
+
+grid-area pada elemen        → Menghubungkan setiap elemen dengan area yang ditentukan.
+
+gap                          → Jarak antar elemen.
